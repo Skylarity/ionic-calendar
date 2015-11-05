@@ -3,11 +3,7 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'calendar' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
-angular.module('calendar', ['ionic'])
-
-.controller('CalendarController', function($scope, $ionicModal, $ionicSideMenuDelegate) {
-    $scope.list = ["Test", "test 2", "wow", "dang", "what"];
-})
+var app = angular.module('calendar', ['ionic'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
