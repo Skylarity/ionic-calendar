@@ -1,3 +1,4 @@
 app.controller('CalendarController', function($scope, $ionicModal, $ionicSideMenuDelegate) {
-    $scope.pageTitle = "Calendar";
+    $scope.pageTitle = "Calendar App";
+    $scope.user = {};
 });
